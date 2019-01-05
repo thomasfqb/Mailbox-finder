@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04492D05B88F7FBDCB015CAF /* Pods_Trouve_moi_une_boite__.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566DE07C6D85273F618DE236 /* Pods_Trouve_moi_une_boite__.framework */; };
+		A12AB19820A729B30079370A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12AB19720A729B30079370A /* Reachability.swift */; };
 		A136AC2720A609790039BB22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136AC2620A609790039BB22 /* AppDelegate.swift */; };
-		A136AC2920A609790039BB22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136AC2820A609790039BB22 /* ViewController.swift */; };
-		A136AC2C20A609790039BB22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A136AC2A20A609790039BB22 /* Main.storyboard */; };
-		A136AC2E20A6097A0039BB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A136AC2D20A6097A0039BB22 /* Assets.xcassets */; };
+		A136AC2920A609790039BB22 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136AC2820A609790039BB22 /* MapController.swift */; };
 		A136AC3120A6097A0039BB22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A136AC2F20A6097A0039BB22 /* LaunchScreen.storyboard */; };
+		A136AC3920A60A7E0039BB22 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136AC3820A60A7E0039BB22 /* Extensions.swift */; };
+		A136AC3B20A6113F0039BB22 /* MailBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136AC3A20A6113F0039BB22 /* MailBox.swift */; };
+		A136AC3D20A62B150039BB22 /* MailBoxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136AC3C20A62B150039BB22 /* MailBoxCell.swift */; };
+		A136AC3F20A667700039BB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A136AC3E20A667700039BB22 /* Assets.xcassets */; };
+		A136AC4120A669650039BB22 /* NoResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136AC4020A669650039BB22 /* NoResultCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		566DE07C6D85273F618DE236 /* Pods_Trouve_moi_une_boite__.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trouve_moi_une_boite__.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7864B6EE2505D25F139099 /* Pods-Trouve moi une boite !.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trouve moi une boite !.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trouve moi une boite !/Pods-Trouve moi une boite !.release.xcconfig"; sourceTree = "<group>"; };
+		8169D29CE3FDEB170D79D3A9 /* Pods-Trouve moi une boite !.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trouve moi une boite !.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trouve moi une boite !/Pods-Trouve moi une boite !.debug.xcconfig"; sourceTree = "<group>"; };
+		A12AB19720A729B30079370A /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		A136AC2320A609790039BB22 /* Trouve moi une boite !.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trouve moi une boite !.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A136AC2620A609790039BB22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A136AC2820A609790039BB22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A136AC2B20A609790039BB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A136AC2D20A6097A0039BB22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A136AC2820A609790039BB22 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		A136AC3020A6097A0039BB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A136AC3220A6097A0039BB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A136AC3820A60A7E0039BB22 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A136AC3A20A6113F0039BB22 /* MailBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailBox.swift; sourceTree = "<group>"; };
+		A136AC3C20A62B150039BB22 /* MailBoxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailBoxCell.swift; sourceTree = "<group>"; };
+		A136AC3E20A667700039BB22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A136AC4020A669650039BB22 /* NoResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoResultCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04492D05B88F7FBDCB015CAF /* Pods_Trouve_moi_une_boite__.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				A136AC2520A609790039BB22 /* Trouve moi une boite ! */,
 				A136AC2420A609790039BB22 /* Products */,
+				E143084C0DBE8BA67EEB8BE0 /* Pods */,
+				C1090272F9C9A7D9457CEC72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +70,34 @@
 			isa = PBXGroup;
 			children = (
 				A136AC2620A609790039BB22 /* AppDelegate.swift */,
-				A136AC2820A609790039BB22 /* ViewController.swift */,
-				A136AC2A20A609790039BB22 /* Main.storyboard */,
-				A136AC2D20A6097A0039BB22 /* Assets.xcassets */,
+				A136AC2820A609790039BB22 /* MapController.swift */,
+				A136AC3C20A62B150039BB22 /* MailBoxCell.swift */,
+				A136AC4020A669650039BB22 /* NoResultCell.swift */,
+				A136AC3A20A6113F0039BB22 /* MailBox.swift */,
+				A136AC3E20A667700039BB22 /* Assets.xcassets */,
+				A136AC3820A60A7E0039BB22 /* Extensions.swift */,
+				A12AB19720A729B30079370A /* Reachability.swift */,
 				A136AC2F20A6097A0039BB22 /* LaunchScreen.storyboard */,
 				A136AC3220A6097A0039BB22 /* Info.plist */,
 			);
 			path = "Trouve moi une boite !";
+			sourceTree = "<group>";
+		};
+		C1090272F9C9A7D9457CEC72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				566DE07C6D85273F618DE236 /* Pods_Trouve_moi_une_boite__.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E143084C0DBE8BA67EEB8BE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8169D29CE3FDEB170D79D3A9 /* Pods-Trouve moi une boite !.debug.xcconfig */,
+				6D7864B6EE2505D25F139099 /* Pods-Trouve moi une boite !.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A136AC3520A6097A0039BB22 /* Build configuration list for PBXNativeTarget "Trouve moi une boite !" */;
 			buildPhases = (
+				6B4BF4DEA4F4AF803882DB92 /* [CP] Check Pods Manifest.lock */,
 				A136AC1F20A609790039BB22 /* Sources */,
 				A136AC2020A609790039BB22 /* Frameworks */,
 				A136AC2120A609790039BB22 /* Resources */,
+				9C83D32C11BDAA8C36FF0F1C /* [CP] Embed Pods Frameworks */,
+				980C12B76B75ABEB495BDD37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,20 +161,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A136AC3F20A667700039BB22 /* Assets.xcassets in Resources */,
 				A136AC3120A6097A0039BB22 /* LaunchScreen.storyboard in Resources */,
-				A136AC2E20A6097A0039BB22 /* Assets.xcassets in Resources */,
-				A136AC2C20A609790039BB22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B4BF4DEA4F4AF803882DB92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trouve moi une boite !-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		980C12B76B75ABEB495BDD37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trouve moi une boite !/Pods-Trouve moi une boite !-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C83D32C11BDAA8C36FF0F1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Trouve moi une boite !/Pods-Trouve moi une boite !-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ScalingCarousel/ScalingCarousel.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScalingCarousel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trouve moi une boite !/Pods-Trouve moi une boite !-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A136AC1F20A609790039BB22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A136AC2920A609790039BB22 /* ViewController.swift in Sources */,
+				A12AB19820A729B30079370A /* Reachability.swift in Sources */,
+				A136AC3B20A6113F0039BB22 /* MailBox.swift in Sources */,
+				A136AC2920A609790039BB22 /* MapController.swift in Sources */,
+				A136AC3D20A62B150039BB22 /* MailBoxCell.swift in Sources */,
+				A136AC4120A669650039BB22 /* NoResultCell.swift in Sources */,
+				A136AC3920A60A7E0039BB22 /* Extensions.swift in Sources */,
 				A136AC2720A609790039BB22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +242,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A136AC2A20A609790039BB22 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A136AC2B20A609790039BB22 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A136AC2F20A6097A0039BB22 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -213,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -278,11 +369,13 @@
 		};
 		A136AC3620A6097A0039BB22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8169D29CE3FDEB170D79D3A9 /* Pods-Trouve moi une boite !.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B73226DSHJ;
 				INFOPLIST_FILE = "Trouve moi une boite !/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,17 +383,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thomasfauquemberg.Trouve-moi-une-boite--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A136AC3720A6097A0039BB22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7864B6EE2505D25F139099 /* Pods-Trouve moi une boite !.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B73226DSHJ;
 				INFOPLIST_FILE = "Trouve moi une boite !/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +403,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thomasfauquemberg.Trouve-moi-une-boite--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

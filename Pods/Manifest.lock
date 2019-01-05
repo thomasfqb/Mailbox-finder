@@ -1,0 +1,15 @@
+PODS:
+  - ScalingCarousel (2.2)
+  - SwiftMessages (4.1.2)
+
+DEPENDENCIES:
+  - ScalingCarousel
+  - SwiftMessages
+
+SPEC CHECKSUMS:
+  ScalingCarousel: 346af59372a3823a1a38d5bc02ac4fd16afa4fd7
+  SwiftMessages: d81f48c1f8b6bc1dbebdfffe11226f0344f937ca
+
+PODFILE CHECKSUM: 54c62a59cf8010b532ff05abac9b193bfe7664a7
+
+COCOAPODS: 1.4.0
